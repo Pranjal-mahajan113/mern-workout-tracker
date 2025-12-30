@@ -17,7 +17,7 @@ PROJECT13/
 │   ├─ models/
 │   ├─ routes/
 │   ├─ server.js
-│   └─ .env
+│   
 │
 ├─ .gitignore
 └─ README.md
@@ -64,13 +64,6 @@ Go inside the **server** folder and install dependencies:
 cd server
 npm install
 npm install mongoose
-```
-
-Create a `.env` file inside `server/`:
-
-```
-PORT=4000
-MONGO_URI=mongodb://localhost:27017/Project
 ```
 
 ---
